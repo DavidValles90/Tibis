@@ -10,19 +10,40 @@
 
 <body>
     <header class="busqueda">
-        <label for="searchInput" style="color: white;">Buscar:</label>
-        <input type="text" id="searchInput" placeholder="Character Name">
-        <button onclick="buscar()">Buscar</button>
+        
+        <input class="barrabusq" type="text" id="searchInput" placeholder="Character Name">
+        <button class="buy" onclick="buscar()">Buscar</button>
     </header>
     <div class="cipsoft">
         <a href="https://www.cipsoft.com/en/" target="_blank">
-        <img src="imgs/cipsoft.png"></img>
-        </a>
+            <img src="imgs/cipsoft.png"></img>
+            <div class="featurings">
+                <a href="https://www.exevopan.com/es/calculators" target="_blank">
+                    <button class="buy">Calculadoras</button>
+                </a>
+            </div>
     </div>
     <div class="imagen">
         <a href="https://www.tibia.com/news/" target="_blank">
-        <img src="imgs/tibiaGAME-1024x588.png"></img>
+            <img src="imgs/tibiaGAME-1024x588.png"></img>
         </a>
+        <div class="cuadroQuests">
+            <h2>Quest pendientes</h2>
+            <div class="quests">
+                <a href="https://tibia.fandom.com/wiki/The_Pits_of_Inferno_Quest" target="_blank">
+                    <p>1. Pits Of Inferno</p>
+                </a>
+                <a href="https://tibia.fandom.com/wiki/Wrath_of_the_Emperor_Quest" target="_blank">
+                    <p>2. Wrath Of The Emperor</p>
+                </a>
+                <a href="https://tibia.fandom.com/wiki/Helmet_of_the_Ancients" target="_blank">
+                    <p>3. Helmet Of The Ancients</p>
+                </a>
+                <a href="https://tibia.fandom.com/wiki/Forgotten_Knowledge_Quest" target="_blank">
+                    <p>4. Forgotten Knowledge</p>
+                </a>
+            </div>
+        </div>
     </div>
     <div class="tcs">
         <img src="imgs/tcs.png"></img>
@@ -39,34 +60,26 @@
     </div>
     <table>
         <tr>
-          <td class="contador">
-            <img src="imgs/ansietat.png" alt="Ansietat">
-            <div id="charAnsietat"></div>
-          </td>
-          <td class="contador">
-            <img src="imgs/tynanthus.png" alt="Tynanthus">
-            <div id="charTynanthus"></div>
-          </td>
+            <td class="contador">
+                <img src="imgs/ansietat.png" alt="Ansietat">
+                <div id="charAnsietat"></div>
+            </td>
+            <td class="contador">
+                <img src="imgs/tynanthus.png" alt="Tynanthus">
+                <div id="charTynanthus"></div>
+            </td>
         </tr>
         <tr>
-          <td class="contador">
-            <img src="imgs/pim.png" alt="Pim">
-            <div id="charPim"></div>
-          </td>
-          <td class="contador">
-            <img src="imgs/mosby.png" alt="Mosby">
-            <div id="charMosby"></div>
-          </td>
+            <td class="contador">
+                <img src="imgs/pim.png" alt="Pim">
+                <div id="charPim"></div>
+            </td>
+            <td class="contador">
+                <img src="imgs/mosby.png" alt="Mosby">
+                <div id="charMosby"></div>
+            </td>
         </tr>
-      </table>
-    <div class="contador">
-        <h2>Quest pendientes</h2>
-        <div class="quests">
-            <div>1. Pits Of Inferno</div>
-            <div>2. Wrath Of The Emperor</div>
-            <div>3. Helmet Of The Ancients</div>
-        </div>
-    </div>
+    </table>
     <div class="contador" id="chars"></div>
     <script src="script.js"></script>
 </body>
