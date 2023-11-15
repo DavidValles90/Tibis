@@ -89,6 +89,7 @@ function fetchCharacterData(characterName, elementId) {
             document.getElementById(elementId).innerHTML = `
                 <p>Name: ${data.characters.character.name}</p>
                 <p>Level: ${data.characters.character.level}</p>
+                <p>Vocation: ${data.characters.character.vocation}
                 <p>Status: <span style="color: ${statusColor};">${data.characters.character.account_status}</span></p>
                 <!-- Agrega más información según la estructura de tus datos -->
             `;

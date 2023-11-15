@@ -10,9 +10,9 @@
 
 <body>
     <header class="busqueda">
-    <label for="searchInput" style="color: white;">Buscar:</label>
-    <input type="text" id="searchInput" placeholder="Character Name">
-    <button onclick="buscar()">Buscar</button>
+        <label for="searchInput" style="color: white;">Buscar:</label>
+        <input type="text" id="searchInput" placeholder="Character Name">
+        <button onclick="buscar()">Buscar</button>
     </header>
     <div class="cipsoft">
         <img src="imgs/cipsoft.png"></img>
@@ -26,18 +26,35 @@
 
     <div>
         <a href="https://www.tibia.com/news/" target="_blank">
-            <button class="buy">Buy TCs Now</button>
+            <button class="buy">Buy TC's Now</button>
         </a>
     </div>
     <div class="contador">
         <h1>Tibia Legends Comeback</h1>
         <div id="cuentaRegresiva"></div>
-        <div id="charAnsietat"></div>
-        <div id="charTynanthus"></div>
-        <div id="charPim"></div>
-        <div id="charMosby"></div>
-
     </div>
+    <table>
+        <tr>
+          <td class="contador">
+            <img src="imgs/ansietat.png" alt="Ansietat">
+            <div id="charAnsietat"></div>
+          </td>
+          <td class="contador">
+            <img src="imgs/tynanthus.png" alt="Tynanthus">
+            <div id="charTynanthus"></div>
+          </td>
+        </tr>
+        <tr>
+          <td class="contador">
+            <img src="imgs/pim.png" alt="Pim">
+            <div id="charPim"></div>
+          </td>
+          <td class="contador">
+            <img src="imgs/mosby.png" alt="Mosby">
+            <div id="charMosby"></div>
+          </td>
+        </tr>
+      </table>
     <div class="contador">
         <h2>Quest pendientes</h2>
         <div class="quests">
