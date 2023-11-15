@@ -73,14 +73,16 @@ h2 {
     line-height: 5mm;
 }
 
-.tcs {
+.tcs img {
 
+    width: 150px;
 
 }
 
 .buy{
-    margin-bottom: 20px;
-    
+    margin-bottom: 50px;
+    width: 110px;
+    height: 40px;
 }
 
 .cipsoft {
@@ -99,3 +101,9 @@ h2 {
     margin: 0 auto;
     /* Centra la imagen horizontalmente */
 }
+
+.busqueda{
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
