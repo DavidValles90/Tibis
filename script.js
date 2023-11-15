@@ -53,8 +53,8 @@ function buscar() {
             console.log(data);
             // You can now work with the data retrieved from the API
             document.getElementById('chars').innerHTML = `
-                <p>Nombre del personaje: ${data.characters.character.name}</p>
-                <p>Level del personaje: ${data.characters.character.level}</p>
+                <p>Character Name: ${data.characters.character.name}</p>
+                <p>Level: ${data.characters.character.level}</p>
                 <!-- Agrega más información según la estructura de tus datos -->
             `;
         })
@@ -87,8 +87,8 @@ function fetchCharacterData(characterName, elementId) {
 
             // You can now work with the data retrieved from the API
             document.getElementById(elementId).innerHTML = `
-                <p>Nombre del personaje: ${data.characters.character.name}</p>
-                <p>Level del personaje: ${data.characters.character.level}</p>
+                <p>Character Name: ${data.characters.character.name}</p>
+                <p>Level: ${data.characters.character.level}</p>
                 <p>Status: <span style="color: ${statusColor};">${data.characters.character.account_status}</span></p>
                 <!-- Agrega más información según la estructura de tus datos -->
             `;
