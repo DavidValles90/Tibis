@@ -83,6 +83,7 @@ h2 {
     margin-bottom: 50px;
     width: 110px;
     height: 40px;
+    border-radius: 7px;
 }
 
 .cipsoft {
@@ -110,5 +111,5 @@ h2 {
 table {
     margin-bottom: 20px;
     width: 500px;
-    
+
 }
