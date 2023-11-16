@@ -20,6 +20,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+
 }
 
 #cuentaRegresiva {
@@ -56,6 +57,7 @@ h2 {
     position: absolute;
     top: 20px;
     left: 20px;
+    
 }
 
 .imagen img {
@@ -134,5 +136,39 @@ table {
     width: 200px;
     height: 30px;
     border-radius: 7px;
-    
+
+}
+
+.fichajes{
+    text-align: center;
+    font-size: 20pt;
+    margin-left: 10px;
+    margin-top: 25px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
+}
+
+.fichaje1{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 50%;
+    /* Ajusta el tamaño de la imagen según sea necesario */
+    max-width: 400px;
+    /* Establece un tamaño máximo para la imagen */
+    display: block;
+    /* Centra la imagen */
+    margin: 0 auto;
+    /* Centra la imagen horizontalmente */
+}
+
+.fichaje1 img {
+    margin-left: 0px;
+    width: 40%;
+
 }

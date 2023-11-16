@@ -106,5 +106,6 @@ fetchCharacterData('Ansietat', 'charAnsietat');
 fetchCharacterData('Tynanthus', 'charTynanthus');
 fetchCharacterData('Pim Pirim Pim', 'charPim');
 fetchCharacterData('Mosby Unstoppable', 'charMosby');
+fetchCharacterData('Szoncion', 'charSzoncion');
 // Puedes agregar más personajes según sea necesario
 

@@ -10,7 +10,7 @@
 
 <body>
     <header class="busqueda">
-        
+
         <input class="barrabusq" type="text" id="searchInput" placeholder="Character Name">
         <button class="buy" onclick="buscar()">Buscar</button>
     </header>
@@ -43,7 +43,17 @@
                     <p>4. Forgotten Knowledge</p>
                 </a>
             </div>
+
         </div>
+        <div class="fichajes">Fichaje Estrella</div>
+        <table>
+            <tr>
+                <td class="fichaje1">
+                    <img src="imgs/Szoncion.png" alt="Szoncion">
+                    <div id="charSzoncion"></div>
+                </td>
+            </tr>
+        </table>
     </div>
     <div class="tcs">
         <img src="imgs/tcs.png"></img>
@@ -54,6 +64,7 @@
             <button class="buy">Buy TC's Now</button>
         </a>
     </div>
+    <div class="contador" id="chars"></div>
     <div class="contador">
         <h1>Tibia Legends Comeback</h1>
         <div id="cuentaRegresiva"></div>
@@ -80,7 +91,7 @@
             </td>
         </tr>
     </table>
-    <div class="contador" id="chars"></div>
+
     <script src="script.js"></script>
 </body>
 
