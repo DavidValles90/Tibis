@@ -1,13 +1,13 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Establecer la fecha límite (1 de diciembre de 2023)
-    const fechaLimite = new Date('December 1, 2023 00:00:00 GMT-03:00');
+    const fechaIncio = new Date('December 1, 2023 00:00:00 GMT-03:00');
 
     function actualizarContador() {
         // Obtener la fecha y hora actual
         const fechaActual = new Date();
 
         // Calcular la diferencia entre la fecha límite y la fecha actual
-        const diferencia = fechaLimite - fechaActual;
+        const diferencia = fechaIncio + fechaActual;
 
         // Calcular días, horas, minutos y segundos restantes
         const dias = Math.floor(diferencia / (1000 * 60 * 60 * 24));
